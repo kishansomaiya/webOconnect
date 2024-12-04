@@ -13,6 +13,7 @@ const PostForm = ({ onPostAdded }) => {
       const response = await API.post('/posts', { content });
       setContent('');
       if (onPostAdded) onPostAdded(response.data);
+      window.location.reload();
     } catch (err) {
       setError(err.response?.data?.error || 'An error occurred.');
     }
