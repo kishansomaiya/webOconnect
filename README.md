@@ -1,12 +1,13 @@
 # webOconnect
 
 to start frontend: 
-cd client
-npm install --legacy-peer-deps
+cd client,              
+npm install --legacy-peer-deps,              
 
 to start backend:
-cd server
-npm install --legacy-peer-deps
+cd server,             
+npm install --legacy-peer-deps,                
+
 create database and tables given in sql file
 create .env file in same level as package.json 
 
